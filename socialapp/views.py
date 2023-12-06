@@ -11,7 +11,7 @@ class SignUpView(CreateView):
     form_class=RegisterForm
 
     def get_success_url(self):
-        return reverse("sign_up")
+        return reverse("sign_in")
 
     # def post(self,request,*args,**kwargs):
     #     form=RegisterForm(request.POST)
